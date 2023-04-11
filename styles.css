@@ -1,31 +1,32 @@
-
+html { scroll-behavior: smooth ; }
 body{
     background-color: #ffe9ec;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
 }
 
 
-
-
-
-
 nav{
-   position: fixed;
+    position: fixed;
     background-color: #f76278bc;
-    
+    box-shadow: 1px 9px 70px 10px rgba(104,104,104,0.14);
+-webkit-box-shadow: 1px 9px 70px 10px rgba(104,104,104,0.14);
+-moz-box-shadow: 1px 9px 70px 10px rgba(104,104,104,0.14);
     height: 80px;
     width: 100%;
-  backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
 
 }
 nav ul li a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
     
 }
 nav ul li {
     display: inline-block;
-
+   margin-right: 20px;
 }
 nav ul {
     float: right;
@@ -33,30 +34,143 @@ nav ul {
     margin-top: 30px;
    
 }
-a {
+a 
+{ 
+    text-decoration: none;
+    border-radius: 50px;
+   padding-left: 10px;
+   padding-right: 30px;
+  
+}
+a:hover{
+   text-decoration: underline rgb(247, 55, 93);
+}
 
-padding-left: 10px;
-padding-right: 30px;
+.scrolldown{ 
+
+color: black;
+   text-decoration: none;
+    transition: all 2s;
 }
-.greet{
+ .scrolldown:hover{ 
+
+    
+       text-decoration: none;
+       
+    }
+    
+.navtitle{
+    font-size: 35px;
+color: #2f2f2f;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 0 50px;
+}
+#navtitle{
+    width: 60px;
+    margin: 0 0 -15px -35px;
+}
+.burgerbutton{
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+
+}
+#check{
+    display: none;
+
+}
+
+@media(max-width: 1155px)
+{.burgerbutton{
+    display: block;
+}
+nav ul{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(137, 135, 135, 0.692);
+    height: 100vh;
+    text-align: center;
+    top: 60px;
+    left: -120%;
+    transition: all 1s;
+}
+nav ul li {
+    display: block;
+    padding: 50px;
+}
+nav ul li {
+    text-decoration: double;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+  
+}
+
+a{
+    padding: 10px 30px;
+
+    border-radius: 50px;
+}
+#check:checked ~ul{
+    left: 0;
+}
+
+}
+.homepagegreeting
+{
     font-size: 150px;
-   margin-bottom: 10px;
-   margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 100px;
 }
-.introtext{
+.paragraphtext{
+
     width: 40px 40 px;
     margin-top: 5px;
-  margin-left: 150px;
-  margin-right: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
     font-size: 20px;
-padding: 50px;
-background-color: rgb(255, 255, 255);
-
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
-.titles{
-    font-size: 100px;
+.titles
+{
 
-   text-underline-position: below;
-
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 100px;
+    font-size: 80px;
 }
+ .smallertitles{
+    font-size: 30px;
+    margin: 0px;
+ }
+ #opentext {
+    display: none;
+
+  }
+  
+  #opentext:target {
+    display: block;
+   
+  }
+  .opentext{
+    color: #000000;
+    border-style: dashed;
+padding: 4px;
+
+  }
+
+ .opentext:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ }
