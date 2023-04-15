@@ -10,9 +10,9 @@ body{
 nav{
     position: fixed;
     background-color: #f76278bc;
-    box-shadow: 1px 9px 70px 10px rgba(104,104,104,0.14);
--webkit-box-shadow: 1px 9px 70px 10px rgba(104,104,104,0.14);
--moz-box-shadow: 1px 9px 70px 10px rgba(104,104,104,0.14);
+    box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
+-webkit-box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
+-moz-box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
     height: 80px;
     width: 100%;
     backdrop-filter: blur(20px);
@@ -22,16 +22,21 @@ nav ul li a {
     text-decoration: none;
     font-size: 30px;
     color: rgb(255, 255, 255);
+   
     
 }
 nav ul li {
     display: inline-block;
    margin-right: 20px;
+   padding-top: -150px;
+  text-shadow: 2px 2px #761414;
+   padding-left: 2px;
+   padding-right: 4px;
 }
 nav ul {
     float: right;
     margin-right: 30px;
-    margin-top: 30px;
+    margin-top: 25px;
    
 }
 a 
@@ -39,28 +44,47 @@ a
     text-decoration: none;
     border-radius: 50px;
    padding-left: 10px;
-   padding-right: 30px;
+   padding-right: 0px;
   
 }
 a:hover{
-   text-decoration: underline rgb(247, 55, 93);
+   text-decoration: underline rgb(247, 55, 93) 0.3rem;
 }
 
-.scrolldown{ 
+ul {
+      list-style-type: none;
+}
+ul .scrolldown { 
+  
+    background-color: rgb(0, 0, 0);
+   padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 
-color: black;
    text-decoration: none;
-    transition: all 2s;
+   display: inline-block;
+     margin: 40px;
 }
  .scrolldown:hover{ 
-
+background-color: #f96161;
     
        text-decoration: none;
        
     }
+    .buttoncentre{
+        text-align: center;
+    }
+/*ul .scrolllist{
+    margin: 0 auto;
+ display :flex;
+ justify-content: center;
+    display: inline-block ;
+    text-align: center;
+    text-decoration: none;
+   }*/
     
 .navtitle{
-    font-size: 35px;
+    font-size: 30px;
 color: #2f2f2f;
     font-weight: bold;
     line-height: 80px;
@@ -71,7 +95,7 @@ color: #2f2f2f;
     margin: 0 0 -15px -35px;
 }
 .burgerbutton{
-    font-size: 30px;
+    font-size: 30p2;
     color: white;
     float: right;
     margin-right: 40px;
@@ -111,11 +135,7 @@ nav ul li {
   
 }
 
-a{
-    padding: 10px 30px;
 
-    border-radius: 50px;
-}
 #check:checked ~ul{
     left: 0;
 }
@@ -132,6 +152,7 @@ a{
 
     width: 40px 40 px;
     margin-top: 5px;
+    margin-bottom: 40px;
     margin-left: 150px;
     margin-right: 150px;
     font-size: 20px;
@@ -142,10 +163,10 @@ a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-
+/*Heading sizes*/
 .titles
-{
-
+{text-shadow: 2px 2px #ffa1a1;
+text-align: center;
     margin-bottom: 10px;
     margin-top: 0px;
     padding-top: 100px;
@@ -155,22 +176,54 @@ a{
     font-size: 30px;
     margin: 0px;
  }
+ .evensmallertitles{
+    font-size: 23px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+ }
+
+
+/*Weekly blog buttons*/
  #opentext {
     display: none;
 
   }
-  
-  #opentext:target {
+ 
+ #opentext:target {
     display: block;
    
+  } 
+  #Week {
+    display: none;
+
   }
-  .opentext{
+  #Week:target{
+    display: block;
+
+  }
+  #weektwo {
+    display: none;
+
+  }
+  #weektwo:target{
+    display: block;
+
+  }
+  .opentext {
     color: #000000;
     border-style: dashed;
-padding: 4px;
+    padding: 5px;
+border-radius: 8px 8px ;
+font-size: 20px;
+border-color: #000000;
+background-color: #ffebeb;
+font-style: normal;
+float: right;
 
   }
 
- .opentext:hover{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+.opentext:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
  }
+ 
