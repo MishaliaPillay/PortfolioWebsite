@@ -53,6 +53,7 @@ a:hover{
 
 ul {
       list-style-type: none;
+   
 }
 ul .scrolldown { 
   
@@ -63,7 +64,7 @@ ul .scrolldown {
 
    text-decoration: none;
    display: inline-block;
-     margin: 40px;
+     margin: 20px;
 }
  .scrolldown:hover{ 
 background-color: #f96161;
@@ -147,6 +148,7 @@ nav ul li {
     margin-bottom: 10px;
     margin-top: 0px;
     padding-top: 100px;
+    margin-left: 50px;
 }
 .paragraphtext{
 
@@ -210,6 +212,46 @@ text-align: center;
     display: block;
 
   }
+  #weekthree {
+    display: none;
+
+  }
+  #weekthree:target{
+    display: block;
+
+  }
+  #weekfour {
+    display: none;
+
+  }
+  #weekfour:target{
+    display: block;
+
+  }
+  #weekfive {
+    display: none;
+
+  }
+  #weekfive:target{
+    display: block;
+
+  }
+  #weeksix {
+    display: none;
+
+  }
+  #weeksix:target{
+    display: block;
+
+  } #weekseven {
+    display: none;
+
+  }
+  #weekseven:target{
+    display: block;
+
+  }
+  
   .opentext {
     color: #000000;
     border-style: dashed;
