@@ -1,6 +1,6 @@
 html { scroll-behavior: smooth ; }
 body{
-    background-color:#f9e1e8 ;
+    background-color:#fbe9ee ;
     font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     padding: 0px;
@@ -182,7 +182,7 @@ nav ul li {
   padding: 50px;
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: #fcb7c0;
+  background-color: #f5c9cf;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
