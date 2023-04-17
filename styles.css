@@ -1,6 +1,6 @@
 html { scroll-behavior: smooth ; }
 body{
-    background-color: #ffe9ec;
+    background-color:#f9e1e8 ;
     font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     padding: 0px;
@@ -13,10 +13,9 @@ body{
   
 }
 
-
 nav{
     position: fixed;
-    background-color: #f76278bc;
+    background-color: #ff597ab4;
     box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
 -webkit-box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
 -moz-box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
@@ -166,7 +165,7 @@ nav ul li {
     margin-right: 250px;
     font-size: 20px;
     padding: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: #f5f1f1;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -183,7 +182,7 @@ nav ul li {
   padding: 50px;
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: rgb(246, 221, 221);
+  background-color: #fcb7c0;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
