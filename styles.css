@@ -1,25 +1,23 @@
 html { scroll-behavior: smooth ; }
 body{
-    background-color:#fbe9ee ;
+
+  /*background: url(Images/image-from-rawpixel-id-6241000-png.png) ;*/
+    background:var(--color-bck);
     font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     padding: 0px;
     
-    /*background: url(pexels-quintin-gellar-313782.jpg) no-repeat;
-    background-size: cover;
-    height: 100vh;*/
-  
-    
-  
 }
 
 nav{
     position: fixed;
-    background-color: #ff597ab4;
-    box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
+    background-color:var( --color-nav);
+    box-shadow:  inset 0px -3px 6px -2px rgba(0, 0, 0, 0.3);
+
+   /*box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
 -webkit-box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
 -moz-box-shadow: 3px 10px 24px 0px rgba(252,143,187,0.75);
-    height: 80px;
+    */height: 80px;
     width: 100%;
     backdrop-filter: blur(20px);
 
@@ -27,7 +25,7 @@ nav{
 nav ul li a {
     text-decoration: none;
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: var(--color-font);
    
     
 }
@@ -35,7 +33,7 @@ nav ul li {
     display: inline-block;
    margin-right: 20px;
    padding-top: -150px;
-  text-shadow: 2px 2px #761414;
+  /*text-shadow: 2px 2px #d70809;*/
    padding-left: 2px;
    padding-right: 4px;
 }
@@ -54,7 +52,7 @@ a
   
 }
 a:hover{
-   text-decoration: underline rgb(247, 55, 93) 0.3rem;
+   text-decoration: underline #d70809 0.3rem;
 }
 
 ul {
@@ -63,18 +61,19 @@ ul {
 }
 ul .scrolldown { 
   
-    background-color: rgb(0, 0, 0);
+    background-color: var(--color-bck);
    padding: 5px 10px;
     color: rgb(255, 255, 255);
     font-size: 20px;
-
+font-weight: bold;
    text-decoration: none;
    display: inline-block;
      margin: 20px;
 }
  .scrolldown:hover{ 
-background-color: #f96161;
-    
+background-color:#d70809;
+ /*color: #000000;*/
+ box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
        text-decoration: none;
        
     }
@@ -91,8 +90,8 @@ background-color: #f96161;
    }*/
     
 .navtitle{
-    font-size: 30px;
-   color: #2f2f2f;
+    font-size: 80%;
+   color:var(--color-font);
     font-weight: bold;
     line-height: 80px;
     margin: 0 50px;
@@ -102,8 +101,8 @@ background-color: #f96161;
     margin: 0 0 -15px -35px;
 }
 .burgerbutton{
-    font-size: 30p2;
-    color: white;
+    font-size: 30px;
+    color:var(--color-font);
     float: right;
     margin-right: 40px;
     line-height: 80px;
@@ -116,7 +115,7 @@ background-color: #f96161;
 
 }
 
-@media(max-width: 1155px)
+@media(max-width: 1225px)
 {.burgerbutton{
     display: block;
 }
@@ -149,7 +148,7 @@ nav ul li {
 
 }
 .homepagegreeting
-{ text-shadow: 4px 4px #ff5b5b;
+{ text-shadow: 4px 4px #d70809;
     font-size: 150px;
     margin-bottom: 10px;
     margin-top: 0px;
@@ -161,12 +160,12 @@ nav ul li {
     width: 40px 40px;
     margin-top: 5px;
     margin-bottom: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 150px;
+    margin-right: 50px;
     font-size: 20px;
-    padding: 50px;
-    background-color: #f5f1f1;
-    border-radius: 10px;
+    padding: 20px;
+    background: var(--color-para);
+   
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
@@ -182,7 +181,7 @@ nav ul li {
   padding: 50px;
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: #f5c9cf;
+  background-color: #2A5D67;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -193,7 +192,7 @@ align-items: center;
 }
 /*Heading sizes*/
 .titles
-{text-shadow: 2px 2px #ff5b5b;
+{text-shadow: 2px 2px #d70809;
 text-align: center;
     margin-bottom: 10px;
     margin-top: 0px;
@@ -295,15 +294,13 @@ text-align: center;
   }
   
   .opentext {
-    color: #000000;
-    border-style: dashed;
-    padding: 4px;
-   
+    background-color: var(--color-font);
+    padding: 5px 10px;
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+ font-weight: bold;
 border-radius: 8px 8px ;
-font-size: 20px;
-border-color: #000000;
-background-color: #ffebeb;
-font-style: normal;
+font-family: 'Courier New', Courier, monospace;
 float: right;
 
 margin-bottom: 15px;
@@ -313,4 +310,101 @@ margin-left: 85%;
 .opentext:hover{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
  }
+ /*Assignment 3*/
+:root{
+  --color-bck:#fffdfc ;
+  --color-font: #222020;
+  --color-headings:
+  --color-para:  #f4f1ee; 
+  --color-nav:#fffdfc77;
+
+}
+.dark-mode{
+  --color-bck:#151515 ;
+  --color-font: #fafafa;
+  --color-para:  #454545; 
+  --color-nav:#11111177;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+
+
+ .lighting{
+   visibility: hidden;
+    display: none;
+
+ }
  
+/* CSS Scan. 2023. Beautiful CSS checkboxes examples.
+Online. https://getcssscan.com/css-checkboxes-examples?ref=shapes-bottom. 24 May 2023.*/
+.checkbox-wrapper-54{
+
+padding: 20px;
+float: right;
+}
+  .checkbox-wrapper-54 input[type="checkbox"] 
+  .checkbox-wrapper-54 *,
+  .checkbox-wrapper-54 ::after,
+  .checkbox-wrapper-54 ::before {
+    box-sizing: border-box;
+  }
+
+  /* The switch - the box around the slider */
+  .checkbox-wrapper-54 .switch {
+    --width-of-switch: 3.5em;
+    --height-of-switch: 2em;
+    /* size of sliding icon -- sun and moon */
+    --size-of-icon: 1.4em;
+    /* it is like a inline-padding of switch */
+    --slider-offset: 0.3em;
+    position: relative;
+    width: var(--width-of-switch);
+    height: var(--height-of-switch);
+    display: inline-block;
+  }
+
+  /* The slider */
+  .checkbox-wrapper-54 .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f4f5;
+    transition: .4s;
+    border-radius: 30px;
+  }
+
+  .checkbox-wrapper-54 .slider:before{
+    position: absolute;
+    content: "";
+    height: var(--size-of-icon,1.4em);
+    width: var(--size-of-icon,1.4em);
+    border-radius: 20px;
+    left: var(--slider-offset,0.3em);
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+    ;
+   transition: .4s;
+  }
+
+  .checkbox-wrapper-54 input:checked + .slider {
+    background-color: #303136;
+  }
+
+  .checkbox-wrapper-54 input:checked + .slider:before {
+    left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
+    background: #303136;
+    /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+  }
