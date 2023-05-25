@@ -30,6 +30,8 @@ console.log("dark mode");
 
 const lightingBtn = document.querySelector(".lighting");
 const htmlRoot = document.querySelector("html");
+const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
+//localStorage.getItem("input:checked");
 let darkMode = localStorage.getItem("dark-mode");
 //code without local storage 
 /*lightingBtn.addEventListener("click", () => {
@@ -49,7 +51,9 @@ const enableDarkMode = () => {
   htmlRoot.classList.add("dark-mode");
   lightingBtn.classList.remove("dark-mode");
   localStorage.setItem("dark-mode", "enabled");
-  localStorage.set
+  toggleSwitch.checked = true;
+ // localStorage.setItem("input:checked");
+  //localStorage.set
   //.lighting==true;
 };
 
@@ -69,6 +73,7 @@ lightingBtn.addEventListener("click", (e) => {
     enableDarkMode();
   } else {
     disableDarkMode();
+    toggleSwitch.addEventListener("click", lightingBtn, false);
   }
 });
 
