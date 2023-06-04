@@ -70,12 +70,23 @@ font-weight: bold;
    display: inline-block;
      margin: 20px;
 }
+.scrolldown, .search-input { 
+  
+  background-color: var(--color-bck);
+ padding: 5px 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+font-weight: bold;
+ text-decoration: none;
+ display: inline-block;
+   margin: 20px;
+}
  .scrolldown:hover{ 
 background-color:#d70809;
  /*color: #000000;*/
  box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
        text-decoration: none;
-       
+     
     }
     .buttoncentre{
         text-align: center;
@@ -94,16 +105,21 @@ background-color:#d70809;
    color:var(--color-font);
     font-weight: bold;
     line-height: 80px;
-    margin: 0 50px;
+ 
+   
+
+  
 }
 #navtitle{
     width: 60px;
     margin: 0 0 -15px -35px;
+padding-left: 15px;
+ margin-top: 15px;
 }
 .burgerbutton{
-    font-size: 30px;
-    color:var(--color-font);
-    float: right;
+   
+    box-shadow: var(--color-font);
+   float: right;
     margin-right: 40px;
     line-height: 80px;
     cursor: pointer;
@@ -148,28 +164,99 @@ nav ul li {
 
 }
 .homepagegreeting
-{ text-shadow: 4px 4px #d70809;
+{ text-shadow: 4px 4px var(--color-shadow);
     font-size: 150px;
     margin-bottom: 10px;
     margin-top: 0px;
     padding-top: 100px;
     margin-left: 50px;
 }
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+.collapsible:after {
+  content: '\25BC'; /* Unicode character for "plus" sign (+) */
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\25B2"; /* Unicode character for "minus" sign (-) */
+}
+
+.togglect {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.container{
+  margin: 0;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paraspacing{
+padding: 2px;
+}
 .paragraphtext{
 
-    width: 40px 40px;
-    margin-top: 5px;
+  width: 50rem;
+
+    margin: 1rem;
+
+
+    /*margin-top: 5px;
     margin-bottom: 40px;
-    margin-left: 150px;
-    margin-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;*/
     font-size: 20px;
     padding: 20px;
     background: var(--color-para);
-   
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: var(--color-font);
+  border: 2px solid pink;
+    border-left: 2px solid pink;
+    border-bottom: 2px solid pink;
+   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
+
+
+.smallertitlescirlce{
+
+  background-color: pink;
+   
+    
+/*margin left 300px*/
+  padding: 10px;
+  border: 2px solid pink;
+  border-radius: 50%;
+  float: left;
+
+ }
+
 .designblocks{
 
 
@@ -192,7 +279,7 @@ align-items: center;
 }
 /*Heading sizes*/
 .titles
-{text-shadow: 2px 2px #d70809;
+{text-shadow: 2px 2px var(--color-shadow);
 text-align: center;
     margin-bottom: 10px;
     margin-top: 0px;
@@ -200,11 +287,14 @@ text-align: center;
     font-size: 80px;
 }
  .smallertitles{
+
+  shape-outside: margin-box;
     font-size: 30px;
     margin: 0px;
   text-align: center;
   text-shadow: 1px 1px rgb(247, 120, 142);
  }
+ 
  .evensmallertitles{
     font-size: 23px;
     margin: 0px;
@@ -292,7 +382,20 @@ text-align: center;
     display: block;
 
   }
-  
+  /*Start Filter styles */
+  .ctBl{margin: 50px ;
+  padding: 0.4rem;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+/*End*/
+
+
+
+
+
   .opentext {
     background-color: var(--color-font);
     padding: 5px 10px;
@@ -315,15 +418,18 @@ margin-left: 85%;
   --color-bck:#fffdfc ;
   --color-font: #222020;
   --color-headings:
-  --color-para:  #f4f1ee; 
+  --color-para: ; 
   --color-nav:#fffdfc77;
+  --color-shadow:#d70809;
+
 
 }
 .dark-mode{
   --color-bck:#151515 ;
   --color-font: #fafafa;
-  --color-para:  #454545; 
+  --color-para:  #131313; 
   --color-nav:#11111177;
+  --color-shadow:rgb(233, 233, 86);
 }
 *,
 ::after,
@@ -332,7 +438,7 @@ margin-left: 85%;
   padding: 0;
   box-sizing: border-box;
 
-
+transition: .4s;
 }
 
 

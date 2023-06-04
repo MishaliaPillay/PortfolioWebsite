@@ -1,8 +1,18 @@
-header.innerHTML = ` <input type="checkbox" name="" id="check" />
+
+//header
+header.innerHTML = ` 
+<input type="checkbox" name="" id="check" />
 <input type="checkbox" name="" id="check" />
 <label for="check" class="burgerbutton"
-  ><i class="fa-solid fa-bars"></i
-></label>
+  ><script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+  <lord-icon
+      src="https://cdn.lordicon.com/phtfmmnb.json"
+      trigger="morph"
+      colors="primary:#121331,secondary:#08a88a"
+      stroke="25"
+      style="width:50px;height:50px">
+  </lord-icon>
+ </label>
 <label for="navtitle" class="navtitle">MISHALIA'S PORTFOLIO</label>
 <img src="./Images/R.png" id="navtitle" alt="" />
 <section class="checkbox-wrapper-54">
@@ -13,17 +23,17 @@ header.innerHTML = ` <input type="checkbox" name="" id="check" />
         </section>
 <ul>
   <li>
-    <a href="index.html" class="opened"> <strong>Home</strong></a>
-    <a href="design.html" class="opened"> <strong>Design</strong></a>
-    <a href="blogs.html" class="opened"> <strong>Blogs</strong></a>
-    <a href="essay.html" class="opened"> <strong>Essay</strong></a>
+    <a href="index.html" class="opened"> <b>Home</b></a>
+    <a href="design.html" class="opened"> <b>Design</b></a>
+    <a href="blogs.html" class="opened"> <b>Blogs</b></a>
+    <a href="essay.html" class="opened"> <b>Essay</b></a>
     <a href="portfolio.html" class="opened">
-      <strong>Portfolio</strong></a
+      <b>Portfolio</b></a
     >
   </li>
 </ul>`;
 
-
+//header end 
 //DOM
 //Dark mode
 console.log("dark mode");
@@ -76,5 +86,4 @@ lightingBtn.addEventListener("click", (e) => {
     toggleSwitch.addEventListener("click", lightingBtn, false);
   }
 });
-
-
+// end of dark mode 
