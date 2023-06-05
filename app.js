@@ -88,7 +88,7 @@ lightingBtn.addEventListener("click", (e) => {
 });
 // end of dark mode 
 
-
+//How to - sticky/affix Navbar (no date) How To Create a Sticky Navbar. Available at: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp (Accessed: 05 June 2023). 
 
 window.onscroll = function() {stickyScroll()};
 
