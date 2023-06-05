@@ -107,7 +107,10 @@ return ct.title.toLowerCase().includes(searchQuery);
 });
 displaycts();
 });
-*/
+*///
+
+
+//Referencde: How To Create an Accordion (no date). Available at: https://www.w3schools.com/howto/howto_js_accordion.asp.
 // toggle togglect
 calltoggle();
 function calltoggle(){

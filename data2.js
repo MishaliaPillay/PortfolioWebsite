@@ -149,7 +149,7 @@ const cts = [
   category: "Annotated Wireframes",
  
   },{t1: "Implementation Notes",
-  t1para1: "My experience setting up Gitub. Reflection on the readings(Bush 1979 -  <i> As we may think</i> )(Borges 1998 -<i> The library of Babel</i> ). My Goals for this course.",
+  t1para1: "",
 
   t2: "How my UI and UX impact my code:",
   image1: "",
@@ -165,22 +165,22 @@ const cts = [
   image3para: "<b>CSS :</b>I used classes and IDs which helped me avoid in-line styles. I have implemented responsive layouts which can be seen by the burger button that replaces the header text. I also used targets which helped me open and close paragraphs. I also added code that closes one paragraph when one is opened. The button interface, navigation, at the top of a page closes all of the paragraphs and opens the one the user clicked on.",
   image4: "",
   image4desc: "",
-  image4para: "",
+  image4para: "<b>Assignment 3 JavaScript :</b>  I have separted my functions into DOM manipulation and data processing. I mostly followed the coneventions for camelCase.However, I used one convention for CSS and HTML and another convention for JS  . This helped me seprate conetent and easily identify which element I was referring to.",
 
  
   t4: "",
   image5: "",
   image5desc: "",
-  image5para: "",
+  image5para: "<b>Assignment 3 JavaScript Data :</b> I used separate files for the data files for JS and separate files for the app.js . This allowed me to interchange data as and when it was needed . By displaying content on my pages with JS , I was able to make my code neater , more effective and easier to manipulate.",
   image6: "",
   image6desc: "",
-  image6para: "",
+  image6para: "<b>Assignment 3 JavaScript Dark Mode:</b> My eyes are sensitive to light. This is why it was important for me to make a dark and light mode for my website. Most users have a lot of screen time and a dark mode option decreases the strain on their eyes.  I also made sure to save the user's settings, so that the next time they revisit the site they do not need to choose a mode again.  ",
 
  
   t5: "",
   image7: "",
   image7desc: "",
-  image7para: "",
+  image7para: "<b>Assignment 3  : </b>I used the feedback from Assignment 1 as the basis for designing my website for Assignment 3. For the Reflection and Theory, I became more consistent with my responses and I also explained the content more. I added more meta tags and made use of microformats.  ",
  
   category: "Implementation Notes",
  

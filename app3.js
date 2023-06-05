@@ -14,10 +14,10 @@ const { t1,  t1para1,  t2,t3,t4, t5,image1, image2,image3,image4
 ,image7} = ct;
 return `                    
 
-<article class="ct" class="paragraphtext">
+<article class="ct" class="paragraphtext" class="h-feed">
          
           <button type="button" class="collapsible"> <h2 class="smallertitles">${ t1}</h2></button>
-          <section class="togglect">
+          <section class="togglect" class="e-content">
             <section class="paragraphtext">
               <h2 class="smallertitles">${ t1}</h2>
               <h2 class="evensmallertitles">${t2}</h2>
@@ -182,7 +182,7 @@ for (i = 0; i < coll.length; i++) {
 
   coll[i].addEventListener ("click", activetoggle); 
 }
-}
+};
 function activetoggle(){
   {
     this.classList.toggle("active");
@@ -192,7 +192,6 @@ function activetoggle(){
     } else {
       togglect.style.maxHeight = togglect.scrollHeight + "px";
     }
-  }
-}
-
+  };
+};
 

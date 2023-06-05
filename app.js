@@ -92,8 +92,8 @@ lightingBtn.addEventListener("click", (e) => {
 
 window.onscroll = function() {stickyScroll()};
 
-var stckyasidesc = document.getElementById("stckyaside");
-var sticky = stckyasidesc.offsetTop;
+let stckyasidesc = document.getElementById("stckyaside");
+let sticky = stckyasidesc.offsetTop;
 
 function stickyScroll() {
   if (window.pageYOffset > sticky) {
