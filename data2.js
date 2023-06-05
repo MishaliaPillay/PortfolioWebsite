@@ -32,7 +32,7 @@ const cts = [
     t5: "",
     image7: "",
     image7desc: "",
-    image7para: "",
+    image7para: "<b>Assignment 3 Notes: </b>I felt proud of myself for figuring out this type of navigation (circle with a line through it ). However, I did not end up using it as it did not fit well with my site.",
    
     category: "Original Wireframes",
    
@@ -51,10 +51,10 @@ const cts = [
   t3: "Information Structure",
   image3: "./Images/Desktop - 18.png",
   image3desc: "content mapping",
-  image3para: "This shows togglect mapping.",
+  image3para: "This shows content mapping.",
   image4: "",
   image4desc: "",
-  image4para: "",
+  image4para: "<b>Assignment 3 Notes: </b> My information structure changed slightly. This was because I used JavaScript to filter the information on the page. Thus the buttons rendered depended on the content on the page.",
 
  
   t4: "User Flow",
@@ -84,7 +84,7 @@ const cts = [
     image1para: "I want my website to look professional with a pink aesthetic and a tidy layout of blocks that organise information in an easy-to-digest manner.",
     image2: "",
     image2desc: "",
-    image2para: "",
+    image2para: "<b>Assignment 3 Notes: </b>Throughout my blogs, I mention this goal of having a professional-looking website. This has remained a priority for me and I have found ways to achieve this. One of the ways that this was done was by inverting the colours and removing some shadows. This is where the idea of less is more came in. ",
 
     t3: "Visual and Design Elements Selected",
     image3: "",

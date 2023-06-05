@@ -253,7 +253,7 @@ const cts = [
     t5para2: "Graham, M., De Sabbata, S. and Zook, M.A., 2015. Towards a study of information geographies:(im) mutable augmentations and a mapping of the geographies of information. Geo: Geography and environment, 2(1), pp.88-105.",
     t5para3: "",
  
-    category: "Assignment 2",
+    category: "Assignment 3",
    
   },
   {
@@ -286,7 +286,7 @@ const cts = [
     t5para2: "",
     t5para3: "",
  
-    category: "Assignment 2",
+    category: "Assignment 3",
    
   },
   {
@@ -318,7 +318,7 @@ const cts = [
     t5para2: "",
     t5para3: "",
  
-    category: "Assignment 2",
+    category: "Assignment 3",
    
   },
   {
@@ -350,7 +350,7 @@ const cts = [
     t5para2: "",
     t5para3: "",
  
-    category: "Assignment 2",
+    category: "Assignment 3",
    
   },
   {
@@ -382,7 +382,7 @@ const cts = [
     t5para2: "",
     t5para3: "",
  
-    category: "Assignment 2",
+    category: "Assignment 3",
    
   },{
     t1: "Week 13",
@@ -413,7 +413,7 @@ const cts = [
     t5para2: "",
     t5para3: "",
  
-    category: "Assignment 2",
+    category: "Assignment 3",
    
   },{
     t1: "Additional Research",
@@ -434,13 +434,13 @@ const cts = [
     t3para4: "A “reductionist” approach has been taken and this excludes the many that are not part of this criteria (Gebru & Buolamwini 2018: 1). An example of this is “Gender labelling” which excludes transgender identities (Gebru & Buolamwini 2018: 6). By reducing the gender to male and female many people are then left unincluded and unrepresented.  Another issue is these algorithms reduce races to specific facial features. Again, this is ineffective in grasping the complexity of race.  What does this algorithm do for mixed-race individuals? Furthermore, people in one race group may have traits that are shared with other groups. These algorithms are also unable to accurately identify darker-skinned individuals, more specifically darker-skinned women.  An example of why this may be a problem is that some companies make use of AI in examining job applications. If an AI is unable to “classify” a person or they do not fit the standards in terms of race or gender, they are rejected. This practice is seen as discriminatory.",
    
    
-    t4: "A snippet of my notes for coding",
-    t4para1: "",
-    t4para2: "",
+    t4: "Assignment 3",
+    t4para1: "Referrence :How To Create an Accordion (no date). Available at: https://www.w3schools.com/howto/howto_js_accordion.asp.",
+    t4para2: "I made use of many of the JavaScript exercises from w3schools , such as the one above.  This helped me to practice code and understand it beyond the technical lectures. Websites such as this helped solidify the work taught in the technical lectures.This helped me understand JavaScript.(Which I previously thought would be impossible.)",
    
    
     t5: "",
-    t5para1: "",
+    t5para1: "For Assignement 2 ,the Essay , I conducted extensive research into UX patterns. Check out my Essay Page to see how I Implemented this. ",
     t5para2: "",
     t5para3: "",
  
