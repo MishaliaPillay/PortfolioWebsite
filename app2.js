@@ -11,7 +11,7 @@ const { t1,  t1para1,  t2,t2para1,t2para2,t2para3,t2para4,t2para5,t3,t3para1,t3p
 return `                    
 
 <article class="ct" class="paragraphtext">
-<button type="button" class="collapsible">${ t1} <p class="paraspacing" >${ t1para1}</p></button>
+<button type="button" class="collapsible" >  <h2 class="smallertitles">${ t1}</h2> <p class="paraspacing" >${ t1para1}</p></button>
 <section class="togglect">
   <section class="paragraphtext">
     <h2 class="smallertitles">${ t1}</h2>
@@ -67,7 +67,7 @@ displaycts();
 const categoriesSection = document.querySelector(".categories");
 const displayButtons = () => {
 const categoryButtons = [
-"all",
+"All",
 ...new Set(
 cts.map((ct) => {
 return ct.category;
@@ -85,7 +85,7 @@ displayButtons();
 categoriesSection.addEventListener("click", (e) => {
 const chosenCoy = e.target;
 if (chosenCoy.classList.contains("category-btn")) {
-if (chosenCoy.dataset.coy === "all") {
+if (chosenCoy.dataset.coy === "All") {
 ctsYouWantToView = [...cts];
 } else {
 ctsYouWantToView = cts.filter((ct) => {
@@ -97,6 +97,7 @@ calltoggle();
 }
 });
 //Searchbar Filter
+/*
 const input = document.querySelector(".search-input");
 const form = document.querySelector(".input-form");
 form.addEventListener("keyup", () => {
@@ -106,6 +107,7 @@ return ct.title.toLowerCase().includes(searchQuery);
 });
 displaycts();
 });
+*/
 // toggle togglect
 calltoggle();
 function calltoggle(){

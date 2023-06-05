@@ -22,33 +22,40 @@
     <header>
       <nav id="header"></nav>
     </header>
-    <h1 class="homepagegreeting">Hi there.</h1>
-
+    <h1 id="titles" class="titles">Weekly Blog Posts</h1>
+    <!-- Gopal, A. 2023. Ecommerce JS and Dom Exercise, 9 May 2023. Coding Exercise
+    (WSOA3028A). University of the Witwatersrand, Johannesburg -->
     <!-- cts -->
+
     <section class="cts">
       <!-- filters -->
       <section class="filters-container">
-        <!-- search -->
+        <!-- search 
         <form class="input-form">
           <input type="text" class="search-input" placeholder="search..." />
         </form>
-        <!-- categories -->
-        <h5>category</h5>
-        <article class="categories">
-          <button class="category-btn">all</button>
-          <button class="category-btn">ikea</button>
-          <button class="category-btn">marcos</button>
-        </article>
+        categories 
+        <h5>category</h5>-->
+        <aside class="stckyasidesc" id="stckyaside">
+          <article class="categories">
+            <button class="category-btn" class="scrolldown">all</button>
+            <button class="category-btn">ikea</button>
+            <button class="category-btn">marcos</button>
+          </article>
+        </aside>
       </section>
       <!-- cts -->
+
       <section class="cts-container">
         <!-- single ct -->
         <article class="ct" class="paragraphtext">
           <button type="button" class="togglebtn">Open toggle</button>
           <button type="button" class="collapsible">Open Collapsible</button>
-          <div class="togglect">
+          <article class="togglect"></article>
+            
             <p>Lorem ipsum...</p>
-          </div>
+          </article>
+
           <p class="paragraphtext">
             I am a third-year student studying digital arts. Majoring in
             Interactive Media and Animation. I have a passion for design and web
@@ -65,8 +72,6 @@
         </article>
       </section>
     </section>
-
-    <footer></footer>
   </body>
   <script src="app.js"></script>
   <script src="data.js"></script>

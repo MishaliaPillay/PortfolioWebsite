@@ -87,3 +87,18 @@ lightingBtn.addEventListener("click", (e) => {
   }
 });
 // end of dark mode 
+
+
+
+window.onscroll = function() {stickyScroll()};
+
+var stckyasidesc = document.getElementById("stckyaside");
+var sticky = stckyasidesc.offsetTop;
+
+function stickyScroll() {
+  if (window.pageYOffset > sticky) {
+    stckyasidesc.classList.add("sticky");
+  } else {
+    stckyasidesc.classList.remove("sticky");
+  }
+}
