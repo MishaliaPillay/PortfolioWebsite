@@ -104,6 +104,28 @@ return `
 .join("");
 };
 displaycts();
+
+clearempty();
+function clearempty()
+{
+  let images=document.querySelectorAll("img");
+  
+  let m;
+  let src;
+  for(m=0; m<images.length; m++)
+  {src=images[m].getAttribute('src');
+  console.log(src);
+  
+    if(!src)
+    {
+      images[m].style.display="none";
+    }
+  }
+};
+
+
+
+
 //Buttons
 const categoriesSection = document.querySelector(".categories");
 const displayButtons = () => {

@@ -139,12 +139,12 @@ font-weight: bold;
    }*/
     
 .navtitle{
-    font-size: 80%;
+    font-size: 90%;
    color:var(--color-font);
     font-weight: bold;
     line-height: 80px;
  
-   
+   margin-left: 10px;
 
   
 }
@@ -162,7 +162,7 @@ padding-left: 15px;
     line-height: 80px;
     cursor: pointer;
     display: none;
-
+padding-top: 10px;
 }
 #check{
     display: none;
@@ -288,7 +288,7 @@ padding: 20px;
 align-items: center;
 }
 .paraspacing{
-padding: 2px;
+padding: 12px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       
 }
@@ -357,7 +357,7 @@ padding: 10px;
   padding: 50px;
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: #2A5D67;
+  background-color: var(--color-shadow);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -508,7 +508,7 @@ margin-left: 85%;
   --color-headings:
   --color-para: #fffdfc ; 
   --color-nav:#fffdfc77;
-  --color-shadow:#ee5f5f;
+  --color-shadow:#eb6c6c;
   --color-togglect: pink;
 
 }
@@ -516,8 +516,8 @@ margin-left: 85%;
   --color-bck:#393939 ;
   --color-font: #fafafa;
   --color-para:  #131313; 
-  --color-nav:#11111177;
-  --color-shadow:#d02e2e;
+  --color-nav:#f7c3c377;
+  --color-shadow:#ec4646;
   --color-togglect:#ff8585;
 }
 *,
