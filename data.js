@@ -226,7 +226,7 @@ const cts = [
   },
   {
     t1: "Week 8",
-    t1para1: "",
+    t1para1: "Reflection on Assignment 1. Reflection on the readings( Ballatore & Graham & Sen 2017 - <i>Digital hegemonies</i> ) (Graham & Sabbata & Zook 2015.<i>Towards a study of information geographies</i>).",
   
     t2: "Reflection on Assignment 1:",
     t2para1: " <b>What went wrong?</b> My colour palette didn&apos;t work. The original one that I planned to use was good in theory but ineffective in reality. I did a lot of research into the colour theory to see which colour palette best suited my site, while still representing me. However, my website looked unprofessional. The colours worked, according to colour theory, but I don&apos;t think I utilised the colour palette correctly.",
@@ -259,7 +259,7 @@ const cts = [
   {
     
     t1: "Week 9",
-    t1para1: "",
+    t1para1: "Continuing the development of my website. A close reading(Magenya, S. 2020. -<i>Making a Feminist Internet in Africa </i> ) .",
   
     t2: "Continuing the development of my website:",
     t2para1: "I have been looking at ways to make the code of my website more efficient. The technical lectures have shown me how this would be possible through JavaScript. I have also been working on ways to incorporate the JavaScript exercises into my website. I could use the Reviews exercise for my weekly blogs, so the user has options to navigate through them. The exercise for the “menu” will be useful in the design section of my website. The user can filter the information that is presented to them.",
@@ -291,7 +291,7 @@ const cts = [
   },
   {
     t1: "Week 10",
-    t1para1: "",
+    t1para1: "Continuing the development of my website. Reflection on reading( Birhane  & Guest 2020. -<i>Towards decolonising computational sciences</i>).",
   
     t2: "Continuing the development of my website:",
     t2para1: "This week I focused on implementing aspects spoken about in my previous blog. This entailed a more effective and interactive way of showcasing my blogs on my site. I used the JavaScript exercise for reviews. This not only made it easier to navigate through my blogs, but it made my code more efficient.",
@@ -323,7 +323,7 @@ const cts = [
   },
   {
     t1: "Week 11",
-    t1para1: "",
+    t1para1: " Continuing the development of my website focusing on: How CSS Relates to HTML and JS & Responsive Design: . Reflection on: How we code Matters.",
   
     t2: "Continuing the development of my website:",
     t2para1: "<b>How CSS Relates to HTML and JS-</b>I enjoyed learning more about CSS this week. In the first few weeks, we learnt HTML separately and then we added CSS. It was interesting to see how JS expands the capabilities of CSS. The functions we create in JS take the user's interaction a step further and allow them to customise the site. An example of this is the dark mode function. Many apps have implemented this, and this grows their user base. Since it fulfils the user's goal of easily viewing information.",
@@ -340,7 +340,7 @@ const cts = [
     t3para4: "",
    
    
-    t4: "Reference:",
+    t4: "Reference",
     t4para1: "",
     t4para2: "",
    
@@ -355,7 +355,7 @@ const cts = [
   },
   {
     t1: "Week 12",
-    t1para1: "",
+    t1para1: "Continuing the development of my website (API's & Technical Challenges). Reflection on reading( Costanza-Chock, S., 2020 -<i >Introduction: # TravelingWhileTrans, Design Justice, and Escape from the Matrix of Domination</i >).",
   
     t2: "Continuing the development of my website",
     t2para1: "<b>APIs:</b>I have mentioned that I have a passion for animation a few times throughout my website. I decided to look for an API that has tips for artists or animated gifs. This would add a personal touch to my website while being informative/or creative.",
@@ -386,7 +386,7 @@ const cts = [
    
   },{
     t1: "Week 13",
-    t1para1: "",
+    t1para1: "Continuing the development of my website. Reflection on the readings( Glynos, D & Tataki, M. 2020. -<i>Digital Divide Widens</i> ) (Gebru, T., & Buolamwini, J.- 2018<i>TGender shades: Intersectional accuracy disparities in commercial  gender classification. </i>).",
   
     t2: "Continuing the Development of my website:",
     t2para1: "I still feel that an API that has animated gifs or tips for artists would be beneficial for my website. I have however run into an issue of deciding where this would add the most value to my site. I could add it to my homepage and greet the user with something unique or I could place it in my portfolio section where my art is. I also need to decide if I want to use a button that presents the user with the ability to generate new gifs or quotes.",
