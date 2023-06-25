@@ -43,10 +43,10 @@ const cts = [
   t2: "Goal Alignment",
   image1: "",
   image1desc: "",
-  image1para: "<b>My Goal : </b>Display information and togglect on the work that I have done. I need to organise all information into blocks. The blocks need to be easily accessible and compactable.<b>   Users Goal : </b>My target audience is potential employers their goal is to view my Portfolio. They want to see the work that I have done and they want quick relevant information about me.",
+  image1para: "<b>My Goal : </b>Display information and toggleCt on the work that I have done. I need to organise all information into blocks. The blocks need to be easily accessible and compactable.<b>   Users Goal : </b>My target audience is potential employers their goal is to view my Portfolio. They want to see the work that I have done and they want quick relevant information about me.",
   image2: "",
   image2desc: "",
-  image2para: "<b>My Content:</b>I have togglect on design decisions made and blogs on work I have done. I also have a Portfolio section that displays my work and an about me section.",
+  image2para: "<b>My Content:</b>I have toggleCt on design decisions made and blogs on work I have done. I also have a Portfolio section that displays my work and an about me section.",
 
   t3: "Information Structure",
   image3: "./Images/Desktop - 18.png",
@@ -89,7 +89,7 @@ const cts = [
     t3: "Visual and Design Elements Selected",
     image3: "",
     image3desc: "",
-    image3para: "<b>Fonts</b>I wanted to incorporate Monospaced font into my website. This is because it is associated with coding and it was on a list of professional fonts. This would help me achieve my design goal of professionalism. This font has good legibility, however, it does not have good readability. Which meant I could not use this text for my paragraphs. This is where my second font choice, Sans-Serif, came in. I decided to use Sans-Serif for the togglect of my website and Monospaced for the navigation headings",
+    image3para: "<b>Fonts</b>I wanted to incorporate Monospaced font into my website. This is because it is associated with coding and it was on a list of professional fonts. This would help me achieve my design goal of professionalism. This font has good legibility, however, it does not have good readability. Which meant I could not use this text for my paragraphs. This is where my second font choice, Sans-Serif, came in. I decided to use Sans-Serif for the toggleCt of my website and Monospaced for the navigation headings",
     image4: "./Images/Screenshot 2023-04-17 144554.png",
     image4desc: "color palatte",
     image4para: "<b>Colours: I have included the colour palatte that I used. Referrence: Color Hunt. 2023. Palattes. . Online. https://colorhunt.co/palette/ff597bff8e9ef9b5d0eeeeee. 1 April 2023.</b>I chose a monochromatic colour palette for my website. According to colour theory, this created a harmonious look for a website. Since this is a portfolio website I chose the colour pink which I feel represents me. The pale pink of the background is a relaxing colour according to colour psychology. The darker shades of pink are used to show interactability since they capture a user's attention due to the saturation contrast.",
@@ -101,7 +101,7 @@ const cts = [
     image5para: "<b>Composition</b>There is a hierarchy created through font sizes. Balance is created through paragraph boxes which create a neat layout.",
     image6: "./Images/Desktop - 1.png",
     image6desc: "orginal  home wireframe",
-    image6para: "<b>Composition</b>Headings are centre-aligned and any other text is left-aligned. This creates a contrast and helps the user distinguish between the two. Most of the togglect on a page is hidden and is only accessed when a user clicks a button. This cleans up the layout so the user is not overwhelmed with information. The pink paragraphs, that nest in a grey paragraph box, alternate the text and image orientation. This creates a visually interesting site since the user does not get bored with the same layout. I also have different styling as well as font sizes of text on my website. The larger headings have a text shadow. Smaller headings such as &apos;Reflections on this week's reading: &apos; are bold and underlined. These conventions are used throughout my website and give the user context on how to proceed when switching through the HTML pages.",
+    image6para: "<b>Composition</b>Headings are centre-aligned and any other text is left-aligned. This creates a contrast and helps the user distinguish between the two. Most of the toggleCt on a page is hidden and is only accessed when a user clicks a button. This cleans up the layout so the user is not overwhelmed with information. The pink paragraphs, that nest in a grey paragraph box, alternate the text and image orientation. This creates a visually interesting site since the user does not get bored with the same layout. I also have different styling as well as font sizes of text on my website. The larger headings have a text shadow. Smaller headings such as &apos;Reflections on this week's reading: &apos; are bold and underlined. These conventions are used throughout my website and give the user context on how to proceed when switching through the HTML pages.",
 
    
     t5: "Final Design Sketches",
@@ -144,7 +144,7 @@ const cts = [
   t5: "",
   image7: "./Images/Desktop - 12.png",
   image7desc: "Design wireframe",
-  image7para: "This was my very first wireframe. It was done in week 2 , before the assignment brief was released",
+  image7para: "",
  
   category: "Annotated Wireframes",
  
@@ -165,7 +165,7 @@ const cts = [
   image3para: "<b>CSS :</b>I used classes and IDs which helped me avoid in-line styles. I have implemented responsive layouts which can be seen by the burger button that replaces the header text. I also used targets which helped me open and close paragraphs. I also added code that closes one paragraph when one is opened. The button interface, navigation, at the top of a page closes all of the paragraphs and opens the one the user clicked on.",
   image4: "",
   image4desc: "",
-  image4para: "<b>Assignment 3 JavaScript :</b>  I have separted my functions into DOM manipulation and data processing. I mostly followed the coneventions for camelCase.However, I used one convention for CSS and HTML and another convention for JS  . This helped me seprate conetent and easily identify which element I was referring to.",
+  image4para: "<b>Assignment 3 JavaScript :</b>  I have separted my functions into DOM manipulation and data processing. I mostly followed the coneventions for camelCase.However, I used one convention for CSS and HTML and another convention for JS  . This helped me seprate content and easily identify which element I was referring to.",
 
  
   t4: "",
@@ -181,6 +181,42 @@ const cts = [
   image7: "",
   image7desc: "",
   image7para: "<b>Assignment 3  : </b>I used the feedback from Assignment 1 as the basis for designing my website for Assignment 3. For the Reflection and Theory, I became more consistent with my responses and I also explained the content more. I added more meta tags and made use of microformats.  ",
+ 
+  category: "Implementation Notes",
+ 
+  },{t1: "Final Assessment",
+  t1para1: "",
+
+  t2: "Final Wireframe ",
+  image1: "./Images/Desktop - 21.png",
+  image1desc: "final wireframe",
+  image1para: "This is wireframe decpicts the only section of my website that has changed from the previous wireframe iterations.",
+  image2: "",
+  image2desc: "",
+  image2para: "I've kept the overall design of this website the same throughout. This is because I had done substantial research and a looked at other portfolio websites.This research helped me find ways to display content that is easy to look at and encourages interaction (such as toggle buttons). ",
+
+  t3: "Technical Changes:",
+  image3: "",
+  image3desc: "",
+  image3para: "<b>Technical change:</b>I have followed a camelCase convention. I also recognaised that sticking to a convention will help in the future when I work on group projects.",
+  image4: "",
+  image4desc: "",
+  image4para: "<b>Active Page:</b> I have added a feature through JS that detects the current page that a user is on and highlights it .This helps the user orient themselves if they have been reading a section and got lost.",
+
+ 
+  t4: "",
+  image5: "",
+  image5desc: "",
+  image5para: "<b>Visual Aesthetics :</b> I have increased the spacing of paragraphs that make it easier on the eyes. ",
+  image6: "",
+  image6desc: "",
+  image6para: "<b>Visual Aesthetics (Consistency is key):</b> I used a transparent background for my site . This background displays an interesting pattern using triangles. I have chosen this background since it correlates with the toggle indicator on some sections of my website which is also a triangle shape . The active page is highlighted by a subtle black outline , which also correlates to the section of my site that toggle content. This active indiactor also adds a triangle next to the selected page. This is because the outline was very subtle , but increasing its thickens looked too bulky . After staring at a screen all day I could not immediately identify the outline in the header . Thus I made the design decision to put a triangle next to the active page title.  ",
+
+ 
+  t5: "Additional Research add on:",
+  image7: "",
+  image7desc: "",
+  image7para: " I have also add new content to the Additional Research section on the Blogs page . (It Expands on the Final Essay .)",
  
   category: "Implementation Notes",
  

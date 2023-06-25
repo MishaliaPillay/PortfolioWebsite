@@ -2,7 +2,7 @@
 //Gopal, A. 2023. Ecommerce JS and Dom Exercise, 9 May 2023. Coding Exercise (WSOA3028A). University of the Witwatersrand, Johannesburg
     
 let ctsYouWantToView = [...cts]; //This is a hack "database". We filter thisvariable based on ALL cts and use this in the displaycts() function.
-const ctsContainer = document.querySelector(".cts-container");
+const ctsContainer = document.querySelector(".ctsContainer");
 //Display
 const displaycts = () => {
 ctsContainer.innerHTML = ctsYouWantToView
@@ -14,18 +14,18 @@ const { t1,  t1para1,  t2,t3,t4, t5,image1, image2,image3,image4
 ,image7} = ct;
 return `                    
 
-<article class="ct" class="paragraphtext" class="h-feed">
+<article class="ct" class="paragraphText" class="h-feed">
          
-          <button type="button" class="collapsible"> <h2 class="smallertitles">${ t1}</h2></button>
-          <section class="togglect" class="e-content">
-            <section class="paragraphtext">
-              <h2 class="smallertitles">${ t1}</h2>
-              <h2 class="evensmallertitles">${t2}</h2>
-              <p class="designblocks">
+          <button type="button" class="collapsible"> <h2 class="smallerTitles">${ t1}</h2></button>
+          <section class="toggleCt" class="e-content">
+            <section class="paragraphText">
+              <h2 class="smallerTitles">${ t1}</h2>
+              <h2 class="evenSmallertitles">${t2}</h2>
+              <p class="designBlocks">
                 <img
                   src="${image1}"
                   alt=" ${image1desc}"
-                  id="designimg"
+                  id="designImg"
                 />
                 ${image1para}
               </p>
@@ -33,64 +33,64 @@ return `
               ${ t1para1}
             </p>
             
-            <h2 class="evensmallertitles"></h2>
-            <p class="designblocks">
+            <h2 class="evenSmallertitles"></h2>
+            <p class="designBlocks">
               <img
                 src="${image2}"
                 alt=" ${image2desc}"
-                id="designimg"
+                id="designImg"
               />
               ${image2para}
             </p>
             <p >
-            <h2 class="evensmallertitles">${t3}</h2>
-            <p class="designblocks">
+            <h2 class="evenSmallertitles">${t3}</h2>
+            <p class="designBlocks">
               <img
                 src="${image3}"
                 alt=" ${image3desc}"
-                id="designimg"
+                id="designImg"
               />
               ${image3para}
             </p>
             <p >
-            <h2 class="evensmallertitles"></h2>
-            <p class="designblocks">
+            <h2 class="evenSmallertitles"></h2>
+            <p class="designBlocks">
               <img
                 src="${image4}"
                 alt=" ${image4desc}"
-                id="designimg"
+                id="designImg"
               />
               ${image4para}
             </p>
             <p >
              
-            <h2 class="evensmallertitles">${t4}</h2>
-            <p class="designblocks">
+            <h2 class="evenSmallertitles">${t4}</h2>
+            <p class="designBlocks">
               <img
                 src="${image5}"
                 alt=" ${image5desc}"
-                id="designimg"
+                id="designImg"
               />
               ${image5para}
             </p>
             <p >
 
-            <h2 class="evensmallertitles">${t4}</h2>
-            <p class="designblocks">
+            <h2 class="evenSmallertitles">${t4}</h2>
+            <p class="designBlocks">
               <img
                 src="${image6}"
                 alt=" ${image6desc}"
-                id="designimg"
+                id="designImg"
               />
               ${image6para}
             </p>
             <p >
-            <h2 class="evensmallertitles">${t5}</h2>
-            <p class="designblocks">
+            <h2 class="evenSmallertitles">${t5}</h2>
+            <p class="designBlocks">
               <img
                 src="${image7}"
                 alt=" ${image7desc}"
-                id="designimg"
+                id="designImg"
               />
               ${image7para}
             </p>
@@ -139,7 +139,7 @@ return ct.category;
 ];
 categoriesSection.innerHTML = categoryButtons
 .map((category) => {
-return `<button class="category-btn" data-coy="${category}">${category}</button>`;
+return `<button class="categoryBtn" data-coy="${category}">${category}</button>`;
 })
 .join("");
 };
@@ -147,7 +147,7 @@ displayButtons();
 //Filter for Buttons
 categoriesSection.addEventListener("click", (e) => {
 const chosenCoy = e.target;
-if (chosenCoy.classList.contains("category-btn")) {
+if (chosenCoy.classList.contains("categoryBtn")) {
 if (chosenCoy.dataset.coy === "All") {
 ctsYouWantToView = [...cts];
 } else {
@@ -171,7 +171,7 @@ return ct.title.toLowerCase().includes(searchQuery);
 displaycts();
 });
 */
-// toggle togglect
+// toggle toggleCt
 calltoggle();
 function calltoggle(){
   let coll = document.getElementsByClassName("collapsible");
@@ -186,11 +186,11 @@ for (i = 0; i < coll.length; i++) {
 function activetoggle(){
   {
     this.classList.toggle("active");
-    let togglect = this.nextElementSibling;
-    if (togglect.style.maxHeight){
-      togglect.style.maxHeight = null;
+    let toggleCt = this.nextElementSibling;
+    if (toggleCt.style.maxHeight){
+      toggleCt.style.maxHeight = null;
     } else {
-      togglect.style.maxHeight = togglect.scrollHeight + "px";
+      toggleCt.style.maxHeight = toggleCt.scrollHeight + "px";
     }
   };
 };

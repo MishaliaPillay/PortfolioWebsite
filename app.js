@@ -14,7 +14,7 @@ header.innerHTML = `
   </lord-icon>
  </label>
 <label for="navtitle" class="navtitle">MISHALIA'S PORTFOLIO</label>
-<img src="./Images/R.png" id="navtitle" alt="" />
+<img src="./Images/Rr (1).png" id="navtitle" alt="" />
 <section class="checkbox-wrapper-54">
           <label class="switch">
             <input class="lighting" type="checkbox" />
@@ -24,15 +24,47 @@ header.innerHTML = `
 <ul>
   <li>
     <a href="index.html" class="opened"> <b>Home</b></a>
-    <a href="design.html" class="opened"> <b>Design</b></a>
-    <a href="blogs.html" class="opened"> <b>Blogs</b></a>
-    <a href="essay.html" class="opened"> <b>Essay</b></a>
-    <a href="portfolio.html" class="opened">
-      <b>Portfolio</b></a
-    >
+   
+    
   </li>
+  <li>
+  
+  <a href="design.html" class="opened"> <b>Design</b></a>
+  
+</li>
+<li>
+
+<a href="blogs.html" class="opened"> <b>Blogs</b></a>
+
+</li>
+<li>
+
+<a href="essay.html" class="opened"> <b>Essays</b></a>
+
+</li>
+<li>
+
+<a href="portfolio.html" class="opened">
+  <b>Portfolio</b></a
+>
+</li>
 </ul>`;
 
+const activePage = window.location.pathname;
+const navLinks = document.querySelectorAll('nav a').forEach(link => {
+  if(link.href.includes(`${activePage}`)){
+    link.classList.add('active');
+    
+  }
+})
+/*const currentPage = window.location.pathname;
+const headerLink = document.querySelectorAll('nav a').
+
+forEach(headerLink => {
+  if(link.href.includes('${currentPage}')){
+    link.classList.add('active');
+  }
+})*/
 //header end 
 //DOM
 //Dark mode
@@ -92,13 +124,13 @@ lightingBtn.addEventListener("click", (e) => {
 
 window.onscroll = function() {stickyScroll()};
 
-let stckyasidesc = document.getElementById("stckyaside");
-let sticky = stckyasidesc.offsetTop;
+let stckyAsidesc = document.getElementById("stckyAside");
+let sticky = stckyAsidesc.offsetTop;
 
 function stickyScroll() {
   if (window.pageYOffset > sticky) {
-    stckyasidesc.classList.add("sticky");
+    stckyAsidesc.classList.add("sticky");
   } else {
-    stckyasidesc.classList.remove("sticky");
+    stckyAsidesc.classList.remove("sticky");
   }
 }
