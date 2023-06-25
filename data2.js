@@ -218,7 +218,7 @@ const cts = [
   image7desc: "",
   image7para: " I have also add new content to the Additional Research section on the Blogs page . (It Expands on the Final Essay .)",
  
-  category: "Implementation Notes",
+  category: "Final Assessment",
  
   },
   

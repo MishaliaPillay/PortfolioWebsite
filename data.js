@@ -422,7 +422,7 @@ const cts = [
     t2: "Visual Aesthetics Research:",
     t2para1: "<b>Referrence:</b>Mahlke, Sascha. (2008). Visual aesthetics and the user experience. The Study of Visual Aesthetics in Human-Computer Interaction.",
     t2para2: "This Research Paper looked into how visual design choices affect usability. This looks at the formal and sensory attributes of a product. The sensory attributes are the colour choices and the formal attributes are the shapes of elements on a site.",
-    t2para3: "",
+    t2para3: "For Assignement 2 ,the Essay , I conducted extensive research into UX patterns. Check out my Essay Page to see how I Implemented this.",
     t2para4: "",
     t2para5: "",
   
@@ -439,10 +439,10 @@ const cts = [
     t4para2: "I made use of many of the JavaScript exercises from w3schools , such as the one above.  This helped me to practice code and understand it beyond the technical lectures. Websites such as this helped solidify the work taught in the technical lectures.This helped me understand JavaScript.(Which I previously thought would be impossible.)",
    
    
-    t5: "",
-    t5para1: "For Assignement 2 ,the Essay , I conducted extensive research into UX patterns. Check out my Essay Page to see how I Implemented this. ",
-    t5para2: "",
-    t5para3: "",
+    t5: "Final Assessment",
+    t5para1: "<b>Referrence: Ugwudike, P., 2022. Predictive algorithms in justice systems and the limits of tech-reformism. International Journal for Crime, Justice and Social Democracy, 11(1), pp.85-99.</b>I uncovered a very interesting article when researching content for my essay, on the Impact of AI and algorithms on the internet. I had reached my word count but found my self-compelled to expand on the topic below. ",
+    t5para2: "<b>Predictive algorithms in Justice system and limits of techno reformisms </b> AI and algorithms play important roles in society due to the digital age. AI is used to inform the decisions made by people in power. This becomes problematic when AI fabricates information used in Justice systems. It uses predictive algorithms that “inflate” the risks of marginalised groups particularly black people (Ugwudike, 2022). This perpetuates bias (Ugwudike, 2022). An example of this is the AI used in justice systems increases the rates of recidivism for black inmates. This alters a person’s life and influences their sentences and parole options. ",
+    t5para3: "At times when the “fairness “of these algorithms were brought into question creators chimed in stating that based on the data used the result are fair (Ugwudike, 2022). This means that even if the data shows signs of discrimination the results are fair since the system is fulfilling its purpose. This is whether the issue of value lock-in comes in. Despite knowing that there are gaps in data companies still use this data to train AI models. The creators of these algorithms choose what data to include or exclude which brings into question who’s values are being remade.  This is why it is important for me as a designer to be aware of how my actions affect people and to always take this into consideration. It is not enough for me to identify the issues with my designs, I need to be proactive and change those designs for the better.",
  
     category: "Additional Research",
    
